@@ -1,0 +1,71 @@
+
+.meus-personagens{
+   margin-top: 24px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .meus-personagens h1{
+   margin-bottom: 14px;
+ }
+ 
+ .meus-personagens span{
+   font-size: 18px;
+ }
+ 
+ .meus-personagens ul{
+   width: 720px;
+ }
+ 
+ .meus-personagens ul li{
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 14px;
+ }
+ 
+ .meus-personagens div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .meus-personagens div a {
+   border-radius: 7px;
+   padding: 10px;
+   font-size: 15px;
+   text-decoration: none;
+   background-color: #339056;
+   color: #000;
+   margin-right: 14px;
+ }
+
+ .meus-personagens a:hover{  
+   background-color: #000;
+   text-decoration: none;
+   color: #339056;
+   transition: all 0.3s;
+}
+
+button {
+   font-size: 15px;
+   border-radius: 7px;
+   border: none;
+   padding: 10px;
+   background-color: #339056;
+   color: #000;
+   cursor: pointer;
+}
+
+button:hover {
+   border-radius: 7px;
+   border-color: #339056;
+   border: none;
+   padding: 10px;
+   background-color: #000;
+   color: #339056;
+   transition: all 0.3s;
+   cursor: pointer;
+}

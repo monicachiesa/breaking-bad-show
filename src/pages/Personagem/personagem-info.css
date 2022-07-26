@@ -1,0 +1,59 @@
+.personagem-info {
+    margin: 0 auto;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 8px;
+}
+
+.personagem-info h1 {
+    margin: 14px 0;
+}
+
+.personagem-info img {
+    border-radius: 8px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+}
+
+.personagem-info h3 {
+    margin-top: 14px;
+
+}
+
+.personagem-info span {
+    margin: 8px 0;
+}
+
+.area-buttons button {
+    margin-right: 12px;
+    margin-top: 14px;
+    margin-left: 0;
+    background-color: #339056;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5;
+}
+
+.area-buttons button:hover {
+    background-color: #000;
+    color: #339056;
+    transition: all 0.3s;
+}
+
+.area-buttons button:a {
+    color: #FFF;
+}
+
+.area-buttons a {
+    background-color: #000;
+    text-decoration: none;
+    color: #339056;
+}
